@@ -1,9 +1,9 @@
 ---
-id: certifications-and-contact
+id: technical-data-and-contact
 layout: page
 ---
 section[class="row flex-fill"]
-  div[class="col-12 mx-auto certifications-and-contact-wrapper"]
+  div[class="col-12 mx-auto technical-data-and-contact-wrapper"]
     div[class="row"]
       div[class="col-12 mx-auto certifications-wrapper"]
         div[class="row"]
@@ -21,6 +21,8 @@ section[class="row flex-fill"]
                   br
                   a[href="mailto:#{data.components.social.email}"]
                     = data.components.social.email
+              div[class="col-12 technical-data"]
+                = link_to("Click Here for Technical Data", "https://drive.google.com/drive/folders/1t1-ASbbUyn91fnS3w94iGGxqgWYB60R_?usp=sharing", target: "_blank")
           div[class="col-12 d-none d-md-block col-md-6"]
             div[class="row"]
               div[class="col-12"]
@@ -28,6 +30,8 @@ section[class="row flex-fill"]
             div[class="row"]
               div[class="col-12 sippayoffcomparison-details"]
                 = data.projects.sipss_and_solar_savings_chart.details
+          div[class="col-12 d-sm-none technical-data"]
+            = link_to("Click Here For <br/>Technical Data", "https://drive.google.com/drive/folders/1t1-ASbbUyn91fnS3w94iGGxqgWYB60R_?usp=sharing", target: "_blank")
           div[class="col-12"]
             span[class="title"]
               |Certifications

@@ -1,11 +1,11 @@
-#certifications-and-contact{
+#technical-data-and-contact{
   .image-wrapper {
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
-  .certifications-and-contact-wrapper {
+  .technical-data-and-contact-wrapper {
     @include box-shadow();
 
     background: url('#{$image-path}/pages/certifications-and-contact/background.jpg') no-repeat;
@@ -43,6 +43,16 @@
           padding-bottom: 1rem;
         }
       }
+    }
+
+    .technical-data {
+      @include secondary-font();
+
+      font-weight: bold;
+      font-size: 1.25rem;
+      color: $color-black;
+      padding-bottom: 1rem;
+      text-transform: uppercase;
     }
 
     .certifications-wrapper {
