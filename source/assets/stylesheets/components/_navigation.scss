@@ -42,7 +42,7 @@
             padding: 0.5rem 0.25rem 0.25rem 0.5rem;
           }
 
-          embed {
+          #company-logo {
             width: 275px;
             cursor: pointer;
             pointer-events: auto;
@@ -50,7 +50,7 @@
         }
 
         @include media-breakpoint-up(md) {
-          embed {
+          #company-logo {
             width: 375px;
           }
         }
@@ -86,10 +86,6 @@
 
       @include media-breakpoint-up(xs) {
         padding: 0;
-      }
-
-      @include media-breakpoint-up(lg) {
-
       }
 
       .navbar-nav {
