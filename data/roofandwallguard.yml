@@ -27,7 +27,7 @@ performance_data:
   -
     id: 1
     metric: "<strong>FIRE</strong>: <b>Rated \"Non-Combustible\"</b><br/>"
-    details: "Fiber Cement Board (FCB) with spray-on WallGuard & RoofGuard .16\" (4 mm) coating did not support flame spread or fire penetration during 35-minute fire test reaching 2,500 F. and earned a rating of \"Non-Combustible\" for fire protection."
+    details: "WallGuard or RoofGuard coating applied on the exterior panel (either spray-on, roller or brush) with a thickness of 12.5mil (.013” or .32 mm) did not support flame spread or fire penetration during 35-minute fire test reaching 2,500 F. and earned a rating of \"Non-Combustible\" for fire protection."
   -
     id: 2
     metric: "<strong>MOISTURE</strong>: <b>4 Year Wind-Driven Rain Test</b>"
