@@ -1,4 +1,4 @@
-#sustainability {
+#sustainable-sip-construction {
   main {
     display: flex;
     flex-direction: column;
@@ -25,7 +25,7 @@
     }
   }
 
-  @import "pages/sustainability/call-to-action";
-  @import "pages/sustainability/statistics";
-  @import "pages/sustainability/details";
+  @import "pages/sustainable-sip-construction/call-to-action";
+  @import "pages/sustainable-sip-construction/statistics";
+  @import "pages/sustainable-sip-construction/details";
 }
