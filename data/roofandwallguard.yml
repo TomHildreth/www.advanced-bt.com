@@ -9,9 +9,11 @@ video:
 
 image:
   sheets_with_foam_insulation:
-    description: TBD
-    title: TBD
-    tags: TBD
+    title: FCB 2' x 4' up to 4' x 8' Sheets with or without Insulation
+    tags: EIFS, Exterior Insulation Finishing System, PICS, Protected Insulation cladding System, Cladding, panels, noncombustible, maintenance free, sound barrier, moisture barrier, warranty, insulation
+  sheets_with_wood_insulation:
+    title: FCB Lap Siding or Planks with or without Insulation
+    tags: Lap Siding, Planks, noncombustible, wood grain, maintenance free, moisture barrier, warranty
   mall:
     description: Shopping Mall in Kissimmee, Florida with white RoofGuard that is sprayed on for fast 2-hours curing and is elastomeric for protection from heavy solar exposure, expansion and contraction and rainfall.
     title: Shopping Mall With Spray On RoofGuard Membrane
