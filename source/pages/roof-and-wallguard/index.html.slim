@@ -9,16 +9,78 @@ section[class="row flex-fill"]
         div[class="row mx-auto roof-and-wallguard-details-wrapper"]
           div[class="col-12 title"]
             span
-              |Fire Resistant WallGuard & RoofGuard
+              |Wildfire Exterior Protection
             span
               |Applications
           div[class="col-12 cta"]
-            = data.roofandwallguard.cta
+            |Advanced Building Technology (ABT) has multiple fire-rated products for exterior finishes.
+          div[class="col-12"]
+            |The ultimate exterior insulated finishing panel system for walls or roof is our Protected Insulation Cladding System (PICS), which is Noncombustible, Maintenance Free, Insulating, Moisture and Sound Barrier. It combines a substrate of our ¼” thick Fiber Cement Board (FCB) sheets bonded to foam insulation of various thicknesses in a ready to install panels 2’ x 4’ up to 4’ x 8’.  The FCB can also be used without foam insulation for other applications. This is finished with our noncombustible, colorized spray-on stucco texture
+            =>
+            strong
+              |WallGuard
+            =>
+            |topcoat that has a has a 20 year warranty and adds additional fire resistance and reflective R-value to the wall.
+          div[class="col-12 pt-2"]
+            |Working with a substrate of OSB or equivalent and a building wrap applied to the substrate, the following outlines the steps required in each process.
 
-          div[class="col-12 image-wrapper"]
-            img[src="#{image_path('pages/roof-and-wallguard/marriot.png')}" title="#{data.roofandwallguard.image.marriott.title}" alt="#{data.roofandwallguard.image.marriott.tags}"]
-          div[class="col-12 image-description"]
-            = data.roofandwallguard.image.marriott.description
+          div[class="col-12 pt-3"]
+            div[class="row"]
+              div[class="col-6"]
+                strong
+                  |Steps for PICS
+              div[class="col-6"]
+                strong
+                  |Steps for Standard EIFS
+            div[class="row"]
+              div[class="col-6"]
+                |1. Install panel
+              div[class="col-6"]
+                |1. Apply adhesive
+            div[class="row"]
+              div[class="col-6"]
+                |2. Finish with texture topcoat
+              div[class="col-6"]
+                |2. Install foam
+            div[class="row"]
+              div[class="col-6"]
+              div[class="col-6"]
+                |3. Attach mesh
+            div[class="row"]
+              div[class="col-6"]
+              div[class="col-6"]
+                |4. Apply basecoat over mesh
+            div[class="row"]
+              div[class="col-6"]
+              div[class="col-6"]
+                |5. Apply primer
+            div[class="row"]
+              div[class="col-6"]
+              div[class="col-6"]
+                |6. Apply finish coat
+
+
+
+          div[class="col-12 pt-3"]
+            |FCB 2' x 4' up to 4' x 8' Sheets with or without Insulation
+
+          div[class="col-12 image-wrapper pt-2"]
+            img[src="#{image_path('pages/roof-and-wallguard/sheets-with-foam-insulation.png')}" title="#{data.roofandwallguard.image.sheets_with_foam_insulation.title}" alt="#{data.roofandwallguard.image.sheets_with_foam_insulation.tags}"]
+
+          div[class="col-12 pt-2"]
+            |Our Lap Siding or Planks of 6" wide x 10' long x ⅓" thick has a traditional wood grain siding appearance and is also noncombustible. This is finished with our noncombustible colorized spray-on smooth texture
+            =>
+            strong
+              |WallGuard
+            =>
+            |topcoat that maintains the woodgrain appearance of the Lap Siding, has a 20 year warranty, and adds additional fire resistance and reflective R-value to the wall.
+
+          div[class="col-12 pt-2"]
+            |FCB Lap Siding or Planks with or without Insulation
+
+          div[class="col-12 image-wrapper pt-2"]
+            img[src="#{image_path('pages/roof-and-wallguard/sheets-with-foam-insulation-without-key.png')}" title="#{data.roofandwallguard.image.sheets_with_wood_insulation.title}" alt="#{data.roofandwallguard.image.sheets_with_wood_insulation.tags}"]
+
 
           div[class="col-12 wildfires-data"]
             div[class="row"]
@@ -29,6 +91,14 @@ section[class="row flex-fill"]
                 |How do wildfires spread in neighborhoods?
               div[class="col-12"]
                 |<iframe src="https://www.youtube.com/embed/L8d1RP9C-F4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+          div[class="col-12 logos"]
+            div[class="row"]
+              div[class="col-6 mx-auto"]
+                img[id="wall-guard-logo" title="WallGuard" alt="WallGuard" src="#{image_path('pages/roof-and-wallguard/wall-guard-logo.svg')}"]
+              div[class="col-6 mx-auto"]
+                img[id="roof-guard-logo" title="RoofGuard" alt="RoofGuard" src="#{image_path('pages/roof-and-wallguard/roof-guard-logo.svg')}"]
+
 
           div[class="col-12 performance-data"]
             div[class="row"]
@@ -41,46 +111,23 @@ section[class="row flex-fill"]
                     = value.metric.try(:html_safe)
                   li[class="details"]
                     = value.details.try(:html_safe)
+
+          div[class="col-12 image-wrapper"]
+            img[src="#{image_path('pages/roof-and-wallguard/marriot.png')}" title="#{data.roofandwallguard.image.marriott.title}" alt="#{data.roofandwallguard.image.marriott.tags}"]
+          div[class="col-12 image-description"]
+            = data.roofandwallguard.image.marriott.description
+
+
           div[class="col-12 image-wrapper"]
             img[src="#{image_path('pages/roof-and-wallguard/background.jpg')}" title="#{data.roofandwallguard.image.stucco_home.title}" alt="#{data.roofandwallguard.image.stucco_home.tags}"]
           div[class="col-12 image-description"]
             = data.roofandwallguard.image.stucco_home.description
 
-          div[class="col-12"]
-            div[class="row"]
-              div[class="col-12 col-md-6 options"]
-                div[class="row"]
-                  div[class="col-12 title"]
-                    |Options
-                div[class="row"]
-                  ul
-                    - data.roofandwallguard.product_options.sort_by { |k| k["id"] }.each_with_index do |value, index|
-                      li
-                        = value.description.try(:html_safe)
-              div[class="col-12 col-md-6 maintenance"]
-                div[class="row"]
-                  div[class="col-12 title"]
-                    |Maintenance
-                div[class="row"]
-                  ul
-                    - data.roofandwallguard.maintenance.sort_by { |k| k["id"] }.each_with_index do |value, index|
-                      li
-                        = value.description.try(:html_safe)
 
           div[class="col-12 image-wrapper"]
             img[src="#{image_path('pages/roof-and-wallguard/mall.png')}" title="#{data.roofandwallguard.image.mall.title}" alt="#{data.roofandwallguard.image.mall.tags}"]
           div[class="col-12 image-description"]
             = data.roofandwallguard.image.mall.description
-
-          div[class="col-12 applications"]
-            div[class="row"]
-              div[class="col-12 title"]
-                |Applications
-            div[class="row"]
-              ul
-                - data.roofandwallguard.applications.sort_by { |k| k["id"] }.each_with_index do |value, index|
-                  li
-                    = value.description.try(:html_safe)
 
           div[class="col-12"]
             div[class="row video-wrapper"]

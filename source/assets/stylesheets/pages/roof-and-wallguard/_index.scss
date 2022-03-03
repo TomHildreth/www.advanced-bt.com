@@ -10,6 +10,15 @@
     padding: 2rem 1rem;
 
     .roof-and-wallguard-details-wrapper {
+      .logos {
+        text-align: center;
+
+        #wall-guard-logo,
+        #roof-guard-logo {
+          max-width: 150px !important;
+        }
+      }
+
       .image-wrapper {
         display: flex;
         align-items: center;
@@ -89,21 +98,6 @@
     .cta {
       font-weight: bold;
       padding-bottom: 1rem;
-    }
-
-    .options,
-    .maintenance,
-    .applications {
-      ul {
-        list-style-type: none;
-        padding: 0.5rem 0.5rem 0 0.5rem;
-      }
-
-      li {
-        &:not(:last-child) {
-          padding-bottom: 1rem;
-        }
-      }
     }
 
     .wildfires-data {
