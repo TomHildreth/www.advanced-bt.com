@@ -32,7 +32,7 @@ performance_data:
   -
     id: 1
     metric: "<strong>FIRE</strong>: <b>Rated \"Non-Combustible\"</b><br/>"
-    details: "Class A after passing the rigorous NFPA 285 test. WallGuard or RoofGuard coating is applied on the exterior (either spray-on, roller or brush) with a thickness of 12.5mil did not support flame spread or fire penetration during 35-minute fire test reaching 2,500 ℉."
+    details: "Class A after passing the rigorous NFPA 285 test. WallGuard or RoofGuard coating is applied on the exterior (either spray-on, roller or brush) with a thickness of 4.5mil did not support flame spread or fire penetration during 35-minute fire test reaching 1,6765 ℉."
   -
     id: 2
     metric: "<strong>MOISTURE</strong>: <b>4 Year Wind-Driven Rain and Snow Test</b>"
