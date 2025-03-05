@@ -8,6 +8,9 @@ video:
     WallGuard,	Spray On Stucco,	Stucco Alternative,	Non-Combustible Wall Coating,	Fire Test
 
 image:
+  single_wall_construction:
+    title: Single Wall Construction
+    tags: EIFS, Exterior Insulation Finishing System, PICS, Protected Insulation cladding System, Cladding, panels, noncombustible, maintenance free, sound barrier, moisture barrier, warranty, insulation
   sheets_with_foam_insulation:
     title: FCB 2' x 4' up to 4' x 8' Sheets with or without Insulation
     tags: EIFS, Exterior Insulation Finishing System, PICS, Protected Insulation cladding System, Cladding, panels, noncombustible, maintenance free, sound barrier, moisture barrier, warranty, insulation
