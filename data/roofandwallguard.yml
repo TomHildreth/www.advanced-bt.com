@@ -8,6 +8,9 @@ video:
     WallGuard,	Spray On Stucco,	Stucco Alternative,	Non-Combustible Wall Coating,	Fire Test
 
 image:
+  single_wall_construction:
+    title: Single Wall Construction
+    tags: EIFS, Exterior Insulation Finishing System, PICS, Protected Insulation cladding System, Cladding, panels, noncombustible, maintenance free, sound barrier, moisture barrier, warranty, insulation
   sheets_with_foam_insulation:
     title: FCB 2' x 4' up to 4' x 8' Sheets with or without Insulation
     tags: EIFS, Exterior Insulation Finishing System, PICS, Protected Insulation cladding System, Cladding, panels, noncombustible, maintenance free, sound barrier, moisture barrier, warranty, insulation
@@ -19,7 +22,7 @@ image:
     title: Shopping Mall With Spray On RoofGuard Membrane
     tags: RoofGuard,	Zero Maintenance,	Roof Membrane Alternative,	Exterior Spray On Finish,	Water Moisture Sealant,	20 Year Warranty,	Humidity Resistance,	Heat Resistance
   marriott:
-    description: <strong>The Marriott Residence Inn Alberta, Canada project was completed in 2000.</strong>  WallGuard was selected over traditional stucco for the 96,000 sq. ft. of exterior finish, because of its <strong>superior performance, durability, and maintenance free properties plus it reduced the labor and material cost by 44% saving $178,600</strong>. WallGuard was also used for the walls and ceiling of the indoor pool area. In the 21+ years since installation, the WallGuard coating has not required any repair or maintenance and has protected the exterior walls and interior pool walls and ceiling from the harsh conditions with no fading, peeling or cracking ensuring a clean and welcoming fresh appearance for the hotel guests.  The property has been inspected every 5 years to ensure that it continues to perform as expected.  <strong>The hotel owners and maintenance staff report that the WallGuard coating has been \"maintenance free\", which is a major saving in their annual operating budget costs</strong>.  It has been rebranded as Lakeview Signature Inn located at 2622 39 Ave NE, Calgary.
+    description: <strong>The Marriott Residence Inn Alberta, Canada project was completed in 1999</strong>. WallGuard was selected in place of stucco for the 96,000 sq. ft. of exterior finish, because of its <strong>superior performance, durability, and maintenance free properties plus it reduced the labor and material cost by 44% saving $178,600</strong>. WallGuard was also used for the walls and ceiling of the indoor pool area. The coating has required no repairs or maintenance in 26 years. Annual inspections confirm its continued performance. The hotel owners and maintenance staff report significant savings due to the maintenance-free property. Rebranded as Lakeview Signature Inn at 2622 39 Ave NE, Calgary.
     title: Marriott Residence Inn Alberta, Canada WallGuard Project
     tags: WallGuard,	Zero Maintenance Stucco,	Stucco Alternative,	Exterior Spray On Finish,	Water and Snow Sealant,	20 Year Warranty
   stucco_home:
@@ -31,33 +34,33 @@ image:
 performance_data:
   -
     id: 1
-    metric: "<strong>FIRE</strong>: <b>Rated \"Non-Combustible\"</b><br/>"
-    details: "Class A after passing the rigorous NFPA 285 test. WallGuard or RoofGuard coating is applied on the exterior (either spray-on, roller or brush) with a thickness of 4.5mil did not support flame spread or fire penetration during 35-minute fire test reaching 1,675 ℉."
+    metric: "<strong>FIRE</strong>: WallGuard or RoofGuard, formulated with 3M’s ceramic coating, is sprayed, rolled, or brushed onto the exterior wall and roof at a 6-mil thickness. It earned a Class-A Fire Rating from ASTM'S E-84 test and prevented flame spread and penetration during NFPA 285's 30-minute fire test at 1,675℉."
+    details:
   -
     id: 2
     metric: "<strong>MOISTURE</strong>: <b>4 Year Wind-Driven Rain and Snow Test</b>"
-    details: "The membrane is permeable (breathable) allowing interior water vapor to escape, but is a barrier to rain and snow similar to house wraps or waterproof Gore-Tex garments. Product is also resistant to fungus, mold, and mildew."
+    details: The membrane is permeable (breathable) allowing interior water vapor to escape, but it's a moisture barrier membrane against rain and snow. It's also resistant to fungus, mold, and mildew.
   -
     id: 3
     metric: "<strong>ELONGATION</strong>"
-    details: "Tested to 600%+ elongation at 77 F. and returns to its original dimensions with no deformation and 100% memory retention."
+    details: Tested to 600%+ elongation at 77 F. and returns to its original dimensions without deformation.
   -
     id: 4
     metric: "<strong>SOLAR</strong>"
-    details: "Passed accelerated weathering and solar exposure of 500 hours exposure (equivalent to 4 years) with no degradation or evidence of checking, cracking, chalking or loss of coating."
+    details: Passed accelerated weathering and solar exposure of 500 hours exposure (equivalent to 4 years) without degradation or signs of checking, cracking, chalking, or coating loss.
   -
     id: 5
-    metric: "<strong>INSULATION</strong>>"
-    details: "WallGuard and RoofGuard adds R-4.6 to the FCB substrate and 1-½\" of foam insulation adds R-7.7 for a total wall insulation value of R-12.5; which reduces the cost of air-conditioning by 30% and heating by 60%."
+    metric: "<strong>INSULATION</strong>"
+    details: WallGuard and RoofGuard adds R-4.8 to the structure. Our Protected Insulation Cladding System (PICS) and it's FCB panel substrate with 1-½" of foam insulation adds R-7.7 for a total wall insulation value of R-12.5. This reduces the cost of air-conditioning by 30%.
   -
     id: 6
-    metric: "<strong>ANNUAL MAINTENANCE</strong>: <b>None required</b>"
-    details: "But if damaged can be easily repaired with paintbrush or roller application of WallGuard.  Any dust buildup can be removed with a garden hose."
+    metric: "<strong>ANNUAL MAINTENANCE</strong>: <b>None Required</b>"
+    details: Damaged walls can be easily repaired with WallGuard applied with paintbrush or roller. Dust buildup can be rinsed off with a garden hose.
   -
     id: 7
     metric: "<strong>REPAIR CRACKED STUCCO</strong>"
-    details: "Apply WallGuard (select from over 1,400 colors) with a brush, roller or spay-on; which will coat the stucco for a long lasting, fade resistant fresh appearance with a water-proof membrane filling cracks up to 1/16\" wide.  For wider cracks and older stucco that is chalking, use our Application Guide to first pre-wash, then dry before pre-filling the cracks with caulking and then applying WallGuard."
+    details: Apply colorized WallGuard with a brush, roller or sprayer to coat stucco for a long-lasting, elastomeric (stretchy) membrane, that resists fading and water, and fills in cracks up to 1/16" wide. For wider cracks or older, chalking stucco, pre-wash, dry, pre-fill cracks with caulk, then apply WallGuard.
   -
     id: 8
     metric: "<strong>WARRANTY</strong>"
-    details: "20-Years provided by the manufacturer, which has never had a claim submitted during the 35-year history of the products."
+    details: 20 years of warranty, with no claims submitted in the 45-year history of the products.
