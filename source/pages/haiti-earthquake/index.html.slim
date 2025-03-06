@@ -30,13 +30,3 @@ section[class="row flex-fill"]
               - data.haitiearthquake.proposals.partners.sort_by { |k| k["id"] }.each_with_index do |proposal, index|
                 li
                   = proposal.description
-
-          div[class="col-12"]
-            div[class="row video-wrapper"]
-              div[class="col-12 title"]
-                |ABT SELECTED TEMO INC. AS ONE OF OUR PARTNERS FOR THE 2010 HAITI EARTHQUAKE DISASTER RELIEF PROJECT. THE VIDEO WAS INCLUDED IN OUR PRESENTATION.
-              div[class="col-12"]
-                div[class="embed-responsive embed-responsive-16by9"]
-                  iframe[class="embed-responsive-item" src="#{data.haitiearthquake.video.url}?rel=0" allowfullscreen title="#{data.haitiearthquake.video.description}" alt="#{data.haitiearthquake.video.tags}"]
-              div[class="col-12"]
-                = data.haitiearthquake.video.details
