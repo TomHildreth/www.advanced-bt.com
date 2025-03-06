@@ -34,7 +34,7 @@ image:
 performance_data:
   -
     id: 1
-    metric: "<strong>FIRE</strong>: WallGuard or RoofGuard, formulated with 3M’s ceramic coating, is sprayed, rolled, or brushed onto the exterior wall and roof at a 6-mil thickness. It earned a Class-A Fire Rating from ASTM'S E-84 test and prevented flame spread and penetration during NFPA 285's 30-minute fire test at 1,675℉."
+    metric: "<strong>FIRE</strong>: WallGuard or RoofGuard, formulated with 3M ceramic coating, is sprayed, rolled, or brushed onto the exterior wall and roof at a 6-mil thickness. It earned a Class-A Fire Rating from ASTM'S E-84 test and prevented flame spread and penetration during NFPA 285's 30-minute fire test at 1,675℉."
     details:
   -
     id: 2
