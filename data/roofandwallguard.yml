@@ -29,7 +29,10 @@ image:
     description: Single Family Home with Color Matched WallGuard Spray-On Exterior Coating.
     title: Single Family Home With WallGuard Spray On Exterior Coating
     tags: WallGuard,	Zero Maintenance Stucco,	Stucco Alternative,	Exterior Spray On Finish,	Water and Snow Sealant,	20 Year Warranty
-
+  cease_fire_vents:
+    description: Cal Fire’s only approved roof vent
+    title: Metal-X's patented Cease Fire Vents
+    tags: roof save vent blocks fire embers, heat and smoke from entering the house roof
 
 performance_data:
   -
