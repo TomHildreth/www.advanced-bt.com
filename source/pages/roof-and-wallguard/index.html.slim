@@ -12,10 +12,70 @@ section[class="row flex-fill"]
               |Wildfire Exterior Protection
             span
               |Applications
-          div[class="col-12 cta"]
-            |Advanced Building Technology (ABT) has multiple fire-rated products for exterior finishes.
+          div[class="col-12 logos"]
+            div[class="row d-flex align-items-center justify-content-center"]
+              div[class="col-3 mx-auto"]
+                img[id="wall-guard-logo" title="WallGuard" alt="WallGuard" src="#{image_path('pages/roof-and-wallguard/wall-guard-logo.svg')}"]
+              div[class="col-6 mx-auto title"]
+                |PROTECTION & SAVINGS <br/>CEASE FIRE ROOF VENTS
+              div[class="col-3 mx-auto"]
+                img[id="roof-guard-logo" title="RoofGuard" alt="RoofGuard" src="#{image_path('pages/roof-and-wallguard/roof-guard-logo.svg')}"]
+          div[class="col-12 title"]
+            |WILDFIRE HOME PROTECTION
           div[class="col-12"]
-            |Our <strong>Protected Insulation Cladding System (PICS)</strong> is the ultimate fire-resistant exterior finishing panel system for walls or roofs. Class-A Fire Rated Noncombustible, Maintenance Free, Insulating, Moisture and Sound Barrier. PICS combines a 5/16” thick Fiber Cement Board (FCB) substrate bonded to dense fire-resistant expanded polystyrene (EPS) foam for added insulation in ready-to-install 4’ x 8’ panels. Which are Finished with our noncombustible, colorized spray-on smooth or stucco texture WallGuard topcoat formulated with <strong><font color='red'>3M's ceramic</font></strong> with a 20-year warranty. PICS provides long-term protection and fire resistance for exterior walls.
+            |WallGuard (and RoofGuard) is formulated with <strong><font color="red">3M</font></strong> ceramic for thermal and fire resistance. According to Intertek's fire lab WallGuard is the only spray-on exterior coating they have tested that passed the ASTM E2768 30-minute test with flames directly against WallGuard that earned a <strong>Fire Rate Class-A with ZERO flame and smoke spread</strong>.
+          div[class="col-12 pt-2"]
+            |<strong>Why some L.A. homes remain standing next to ones destroyed by fires: "Like a blow torch" by CBS News Jan. 20, 2025</strong>. Stucco (a cementacious material) is a common exterior for Southern California houses and it's fire-resistant. Reviewing AP photographs showing buildings still standing, Arnold Tarling, who has four decades experience in fire protection and building inspection in Britain, said <strong>"houses with stucco walls appeared to survive the Los Angeles fires better. Yet if more of them had a layer of gypsum beneath the stucco it would have given more protection from the heat"</strong>.
+          div[class="col-12 pt-2"]
+            |Instead, apply a coating of fire and thermally If fire and thermal resistant WallGuard which during a wildfire of over 1,000℉ by 69% to 314℉ on the interior of the house protecting the wood framing materials that ignite at 450℉.
+          div[class="col-12 pt-3"]
+            a[href="https://raw.githubusercontent.com/TomHildreth/www.advanced-bt.com/master/source/assets/files/intertek-e2768-30-min-test-of-wallguard-with-3m-ceramic-applied-6-mils-on-fcb.pdf" target="_blank"]
+              img[src="#{image_path('pages/roof-and-wallguard/intertek .png')}" class="img-fluid w-50"title="Intertek Report" alt="Intertek Report"]
+            br
+            a[href="https://raw.githubusercontent.com/TomHildreth/www.advanced-bt.com/master/source/assets/files/intertek-e2768-30-min-test-of-wallguard-with-3m-ceramic-applied-6-mils-on-fcb.pdf" target="_blank"]
+              |<strong>Click Here for the Full Report</strong>
+          div[class="col-12 wildfires-data"]
+            div[class="row"]
+              div[class="col-12 title"]
+                |Wildfires
+            div[class="row"]
+              div[class="col-12 title"]
+                |How do wildfires spread in neighborhoods?
+              div[class="col-12"]
+                |<iframe src="https://www.youtube.com/embed/L8d1RP9C-F4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          div[class="col-12 performance-data"]
+            div[class="row"]
+              div[class="col-12 title"]
+                |WALLGUARD PERFORMANCE DATA
+            div[class="row"]
+              ul
+                - data.roofandwallguard.performance_data.sort_by { |k| k["id"] }.each_with_index do |value, index|
+                  li[class="metric"]
+                    = value.metric.try(:html_safe)
+                  li[class="details"]
+                    = value.details.try(:html_safe)
+          div[class="col-12"]
+            div[class="row video-wrapper"]
+              div[class="col-12 title"]
+                | WallGuard Fire Test that reached 1,675&#8457; for 30 minutes.
+              div[class="col-12"]
+                div[class="embed-responsive embed-responsive-16by9"]
+                  iframe[class="embed-responsive-item" src="#{data.roofandwallguard.video.url}?rel=0" allowfullscreen title="#{data.roofandwallguard.video.description}" alt="#{data.roofandwallguard.video.tags}"]
+              div[class="col-12"]
+                = data.roofandwallguard.video.details
+              div[class="col-12 title"]
+                |WALLGUARD "Passed" Intertek's NFPA 285 FIRE TEST THAT REACHED 1,675℉ FOR 30 MINUTES
+          div[class="col-12 wildfires"]
+            div[class="row"]
+              div[class="col-12 p-0"]
+                img[src="#{image_path('pages/roof-and-wallguard/cease-fire-vents.png')}" class="img-fluid w-100"title="#{data.roofandwallguard.image.cease_fire_vents.title}" alt="#{data.roofandwallguard.image.cease_fire_vents.tags}"]
+          div[class="col-12 image-wrapper"]
+            img[src="#{image_path('pages/roof-and-wallguard/marriot.png')}" title="#{data.roofandwallguard.image.marriott.title}" alt="#{data.roofandwallguard.image.marriott.tags}"]
+          div[class="col-12 image-description"]
+            = data.roofandwallguard.image.marriott.description
+        div[class="row mx-auto roof-and-wallguard-details-wrapper"]
+          div[class="col-12"]
+            |Our <strong>Protected Insulation Cladding System (PICS)</strong> is the ultimate fire-resistant exterior finishing panel system for walls or roofs. Class-A Fire Rated Noncombustible, Maintenance Free, Insulating, Moisture and Sound Barrier. PICS combines a 5/16" thick Fiber Cement Board (FCB) 1-hour Fire Rated substrate bonded to dense fire-resistant expanded polystyrene (EPS) foam for added insulation in ready-to-install 4' x 8' panels. Which are Finished with our noncombustible, colorized spray-on smooth or stucco texture WallGuard topcoat with a 20-year warranty. PICS provides long-term protection and fire resistance for exterior walls.
 
           div[class="col-12 pt-2"]
             |<strong>PICS</strong> also replaces the OSB substrate. The following lists the assembly steps for PICS versus a Stucco EIFS.
@@ -48,45 +108,14 @@ section[class="row flex-fill"]
                   li Apply primer
                   li Apply finish coat
 
-          div[class="col-12 wildfires-data"]
-            div[class="row"]
-              div[class="col-12 title"]
-                |Wildfires
-            div[class="row"]
-              div[class="col-12"]
-                |How do wildfires spread in neighborhoods?
-              div[class="col-12"]
-                |<iframe src="https://www.youtube.com/embed/L8d1RP9C-F4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-          div[class="col-12 wildfires"]
-            div[class="row"]
-              div[class="col-12 p-0"]
-                img[src="#{image_path('pages/roof-and-wallguard/cease-fire-vents.png')}" class="img-fluid w-100"title="#{data.roofandwallguard.image.cease_fire_vents.title}" alt="#{data.roofandwallguard.image.cease_fire_vents.tags}"]
-
-          div[class="col-12 logos"]
-            div[class="row"]
-              div[class="col-6 mx-auto"]
-                img[id="wall-guard-logo" title="WallGuard" alt="WallGuard" src="#{image_path('pages/roof-and-wallguard/wall-guard-logo.svg')}"]
-              div[class="col-6 mx-auto"]
-                img[id="roof-guard-logo" title="RoofGuard" alt="RoofGuard" src="#{image_path('pages/roof-and-wallguard/roof-guard-logo.svg')}"]
 
 
-          div[class="col-12 performance-data"]
-            div[class="row"]
-              div[class="col-12 title"]
-                |Performance Data
-            div[class="row"]
-              ul
-                - data.roofandwallguard.performance_data.sort_by { |k| k["id"] }.each_with_index do |value, index|
-                  li[class="metric"]
-                    = value.metric.try(:html_safe)
-                  li[class="details"]
-                    = value.details.try(:html_safe)
 
-          div[class="col-12 image-wrapper"]
-            img[src="#{image_path('pages/roof-and-wallguard/marriot.png')}" title="#{data.roofandwallguard.image.marriott.title}" alt="#{data.roofandwallguard.image.marriott.tags}"]
-          div[class="col-12 image-description"]
-            = data.roofandwallguard.image.marriott.description
+
+
+
+
+
 
 
           div[class="col-12 image-wrapper"]
@@ -100,12 +129,4 @@ section[class="row flex-fill"]
           div[class="col-12 image-description"]
             = data.roofandwallguard.image.mall.description
 
-          div[class="col-12"]
-            div[class="row video-wrapper"]
-              div[class="col-12 title"]
-                | WallGuard Fire Test that reached 1,675&#8457; for 30 minutes.
-              div[class="col-12"]
-                div[class="embed-responsive embed-responsive-16by9"]
-                  iframe[class="embed-responsive-item" src="#{data.roofandwallguard.video.url}?rel=0" allowfullscreen title="#{data.roofandwallguard.video.description}" alt="#{data.roofandwallguard.video.tags}"]
-              div[class="col-12"]
-                = data.roofandwallguard.video.details
+
