@@ -45,7 +45,7 @@ performance_data:
     details:
   -
     id: 3
-    metric: "<strong>ELONGATION</strong>"
+    metric: "<strong>ELASTOMERIC</strong>"
     details: Tested to 600%+ elongation at 77 F. and returns to its original dimensions without deformation.
   -
     id: 4
@@ -66,7 +66,7 @@ performance_data:
   -
     id: 8
     metric: "<strong>Torch Test of WallGuard Smooth</strong>"
-    details: "Link: <strong><a href='https://youtu.be/lA6Lfjb0JWIA' target='_blank'>https://youtu.be/lA6Lfjb0JWIA</a></strong><br> A 2,600℉ torch was used to increase the surface of a single coat of 6 mil thick WallGuard to near 1,000℉ for 1.6 minutes to determine its thermal heat resistance into the house interior. 3M's ceramic reduced the surface temperature of 1,000℉ heat transfer to the wall interior by 69% with a maximum high of 314℉. In the video note the plywood does not ignite. OSB and the wood ignite at 450℉."
+    details: "Link: <strong><a href='https://youtu.be/lA6Lfjb0JWIA' target='_blank'>https://youtu.be/lA6Lfjb0JWIA</a></strong><br> A 2,600℉ torch was used to increase the surface of a single coat of 6 mil thick WallGuard to near 1,000℉ for 1.6 minutes to determine its thermal heat resistance into the house interior. <strong><font color='red'>3M's ceramic</font></strong> reduced the surface temperature of 1,000℉ heat transfer to the wall interior by 69% with a maximum high of 314℉. In the video note the plywood does not ignite. OSB and the wood ignite at 450℉."
   -
     id: 9
     metric: "<strong>WARRANTY</strong>"
