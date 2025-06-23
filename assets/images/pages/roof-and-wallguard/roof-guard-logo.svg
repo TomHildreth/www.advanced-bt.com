@@ -1,0 +1,51 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1000 1000">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#New_Gradient_Swatch_1);
+      }
+
+      .cls-2 {
+        fill: url(#New_Gradient_Swatch_2);
+      }
+
+      .cls-3 {
+        font-size: 65.82px;
+        fill: #fff;
+        font-family: RussoOne-Regular, Russo One;
+      }
+
+      .cls-4 {
+        letter-spacing: -0.02em;
+      }
+    </style>
+    <radialGradient id="New_Gradient_Swatch_1" data-name="New Gradient Swatch 1" cx="500" cy="500.11" fy="-47.66661779459923" r="547.78" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f2f2f2"/>
+      <stop offset="0.07" stop-color="#e1e1e1"/>
+      <stop offset="0.19" stop-color="#c7c7c7"/>
+      <stop offset="0.34" stop-color="#b2b2b2"/>
+      <stop offset="0.49" stop-color="#a4a4a4"/>
+      <stop offset="0.69" stop-color="#9c9c9c"/>
+      <stop offset="1" stop-color="#999"/>
+    </radialGradient>
+    <linearGradient id="New_Gradient_Swatch_2" data-name="New Gradient Swatch 2" x1="261.45" y1="409.34" x2="738.55" y2="409.34" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#666"/>
+      <stop offset="0.2" stop-color="#999"/>
+      <stop offset="0.26" stop-color="#9d9d9d"/>
+      <stop offset="0.33" stop-color="#aaa"/>
+      <stop offset="0.39" stop-color="#bebebe"/>
+      <stop offset="0.46" stop-color="#dbdbdb"/>
+      <stop offset="0.5" stop-color="#f2f2f2"/>
+      <stop offset="0.54" stop-color="#dbdbdb"/>
+      <stop offset="0.61" stop-color="#bebebe"/>
+      <stop offset="0.67" stop-color="#aaa"/>
+      <stop offset="0.74" stop-color="#9d9d9d"/>
+      <stop offset="0.8" stop-color="#999"/>
+      <stop offset="1" stop-color="#666"/>
+    </linearGradient>
+  </defs>
+  <path class="cls-1" d="M886,215.85,500.05,2l-386,213.85s-67.26,574.06,386,782.38C952.48,789.91,886,215.85,886,215.85Z"/>
+  <path d="M871.28,226.7,500.05,21,128.82,226.7S64.12,778.84,500.05,979.2C935.2,778.84,871.28,226.7,871.28,226.7Z"/>
+  <path class="cls-2" d="M730.69,290.19,507.76,165a15.41,15.41,0,0,0-15.44.21L269.31,290a15.41,15.41,0,0,0-7.86,13.44v277a15.4,15.4,0,0,0,30.77-.93V499.58c0-.07,0-4,0-4.07l0-183a.05.05,0,0,1,0-.05L500.44,196.3a0,0,0,0,1,.05,0L707.71,312.63a.05.05,0,0,1,0,.05s0,311.88,0,311.88L379.63,625s-.05-30-.05-30V409.24a.05.05,0,0,1,0,0l120.59-75.07h.06l120.09,69.53s0,0,0,0V509c0,8.33,6.4,15.51,14.71,15.88a15.41,15.41,0,0,0,16.11-15.39V394.79a15.42,15.42,0,0,0-7.69-13.34L507.94,303a15.38,15.38,0,0,0-15.44,0l-136,84a15.4,15.4,0,0,0-7.56,15.33s-.11,231.84-.12,232c-.13,8.51,6.65,21.17,15.16,21.3H723.15a15.36,15.36,0,0,0,15.4-15.6V303.63A15.41,15.41,0,0,0,730.69,290.19Z"/>
+  <text class="cls-3" transform="translate(289.87 757.43)">ROOFG<tspan class="cls-4" x="230.7" y="0">U</tspan><tspan x="278.75" y="0">ARD</tspan></text>
+</svg>
