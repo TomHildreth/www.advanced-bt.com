@@ -54,17 +54,6 @@ section[class="row flex-fill"]
                     = value.metric.try(:html_safe)
                   li[class="details"]
                     = value.details.try(:html_safe)
-          div[class="col-12"]
-            div[class="row video-wrapper"]
-              div[class="col-12 title"]
-                | WallGuard Fire Test that reached 1,675&#8457; for 30 minutes.
-              div[class="col-12"]
-                div[class="embed-responsive embed-responsive-16by9"]
-                  iframe[class="embed-responsive-item" src="#{data.roofandwallguard.video.url}?rel=0" allowfullscreen title="#{data.roofandwallguard.video.description}" alt="#{data.roofandwallguard.video.tags}"]
-              div[class="col-12"]
-                = data.roofandwallguard.video.details
-              div[class="col-12 title"]
-                |WALLGUARD "Passed" Intertek's NFPA 285 FIRE TEST THAT REACHED 1,675℉ FOR 30 MINUTES
           div[class="col-12 wildfires"]
             div[class="row"]
               div[class="col-12 p-0"]
@@ -123,5 +112,3 @@ section[class="row flex-fill"]
 
           div[class="col-12 image-description"]
             = data.roofandwallguard.image.mall.description
-
-
