@@ -38,6 +38,7 @@ GEM
     concurrent-ruby (1.3.6)
     connection_pool (3.0.2)
     contracts (0.17.3)
+    date (3.5.1)
     dotenv (3.2.0)
     drb (2.2.3)
     erubi (1.13.1)
@@ -119,6 +120,11 @@ GEM
       middleman-core (>= 3.2)
     minitest (6.0.1)
       prism (~> 1.5)
+    net-ftp (0.3.9)
+      net-protocol
+      time
+    net-protocol (0.2.2)
+      timeout
     net-sftp (4.0.0)
       net-ssh (>= 5.0.0, < 8.0.0)
     net-ssh (7.3.0)
@@ -183,6 +189,9 @@ GEM
     temple (0.10.4)
     thor (1.5.0)
     tilt (2.7.0)
+    time (0.4.2)
+      date
+    timeout (0.6.0)
     titleize (1.4.1)
     toml (0.3.0)
       parslet (>= 1.8.0, < 3.0.0)
@@ -215,6 +224,7 @@ DEPENDENCIES
   middleman (~> 4)
   middleman-deploy!
   middleman-minify-html
+  net-ftp
   ostruct
   pry
   pry-nav
@@ -240,6 +250,7 @@ CHECKSUMS
   concurrent-ruby (1.3.6) sha256=6b56837e1e7e5292f9864f34b69c5a2cbc75c0cf5338f1ce9903d10fa762d5ab
   connection_pool (3.0.2) sha256=33fff5ba71a12d2aa26cb72b1db8bba2a1a01823559fb01d29eb74c286e62e0a
   contracts (0.17.3) sha256=e72e626413ea47099becb7b5683beb1c2ea902c69f5bad55c9258fe2b48314d7
+  date (3.5.1) sha256=750d06384d7b9c15d562c76291407d89e368dda4d4fff957eb94962d325a0dc0
   dotenv (3.2.0) sha256=e375b83121ea7ca4ce20f214740076129ab8514cd81378161f11c03853fe619d
   drb (2.2.3) sha256=0b00d6fdb50995fe4a45dea13663493c841112e4068656854646f418fda13373
   erubi (1.13.1) sha256=a082103b0885dbc5ecf1172fede897f9ebdb745a4b97a5e8dc63953db1ee4ad9
@@ -278,6 +289,8 @@ CHECKSUMS
   middleman-deploy (2.0.0.pre.alpha)
   middleman-minify-html (3.4.1) sha256=fa3c3b06849b9adc28b4ce01a012cb30a1fb3f6602ad0dc079d270c3229e6ca7
   minitest (6.0.1) sha256=7854c74f48e2e975969062833adc4013f249a4b212f5e7b9d5c040bf838d54bb
+  net-ftp (0.3.9) sha256=307817ccf7f428f79d083f7e36dbb46a9d1d375e0d23027824de1866f0b13b65
+  net-protocol (0.2.2) sha256=aa73e0cba6a125369de9837b8d8ef82a61849360eba0521900e2c3713aa162a8
   net-sftp (4.0.0) sha256=65bb91c859c2f93b09826757af11b69af931a3a9155050f50d1b06d384526364
   net-ssh (7.3.0) sha256=172076c4b30ce56fb25a03961b0c4da14e1246426401b0f89cba1a3b54bf3ef0
   ostruct (0.6.3) sha256=95a2ed4a4bd1d190784e666b47b2d3f078e4a9efda2fccf18f84ddc6538ed912
@@ -315,6 +328,8 @@ CHECKSUMS
   temple (0.10.4) sha256=b7a1e94b6f09038ab0b6e4fe0126996055da2c38bec53a8a336f075748fff72c
   thor (1.5.0) sha256=e3a9e55fe857e44859ce104a84675ab6e8cd59c650a49106a05f55f136425e73
   tilt (2.7.0) sha256=0d5b9ba69f6a36490c64b0eee9f6e9aad517e20dcc848800a06eb116f08c6ab3
+  time (0.4.2) sha256=f324e498c3bde9471d45a7d18f874c27980e9867aa5cfca61bebf52262bc3dab
+  timeout (0.6.0) sha256=6d722ad619f96ee383a0c557ec6eb8c4ecb08af3af62098a0be5057bf00de1af
   titleize (1.4.1) sha256=08a0efd42a618ca10cb07c63c97f82ea14bd94a291753ec1f6293ae049357c92
   toml (0.3.0) sha256=0a91d0f76a9036e84e44f95693b12f58d358c1df3ac8e3b5271f2056ecc6e4b9
   tzinfo (2.0.6) sha256=8daf828cc77bcf7d63b0e3bdb6caa47e2272dcfaf4fbfe46f8c3a9df087a829b
