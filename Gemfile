@@ -20,4 +20,5 @@ group :development do
   gem 'pry-nav'
   gem 'rubocop'
   gem 'rb-readline'
+  gem 'ostruct'
 end
