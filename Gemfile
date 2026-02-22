@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '2.7.1'
+ruby '4.0.0'
 
 gem 'rake'
 gem 'highline'
@@ -9,6 +9,7 @@ gem 'builder'
 gem 'middleman', '~> 4'
 gem 'middleman-minify-html'
 gem 'middleman-deploy', git: 'https://github.com/middleman-contrib/middleman-deploy', branch: 'master'
+gem 'net-ftp'
 gem 'redcarpet'
 
 gem 'slim'
@@ -20,4 +21,5 @@ group :development do
   gem 'pry-nav'
   gem 'rubocop'
   gem 'rb-readline'
+  gem 'ostruct'
 end
