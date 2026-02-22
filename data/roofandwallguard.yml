@@ -64,10 +64,6 @@ performance_data:
     metric: "<strong>REPAIR CRACKED STUCCO</strong>"
     details: "Apply colorized WallGuard with a brush, roller or sprayer to coat stucco for a long-lasting, elastomeric (stretchy) membrane, that resists fading and water, and fills in cracks up to 1/16 wide. For wider cracks or older, chalking stucco, pre-wash, dry, pre-fill cracks with caulk, then apply WallGuard."
   -
-    id: 8
-    metric: "<strong>Torch Test of WallGuard Smooth</strong>"
-    details: "Link: <strong><a href='https://youtu.be/lA6Lfjb0JWIA' target='_blank'>https://youtu.be/lA6Lfjb0JWIA</a></strong><br> A 2,600℉ torch was used to increase the surface of a single coat of 6 mil thick WallGuard to near 1,000℉ for 1.6 minutes to determine its thermal heat resistance into the house interior. <strong><font color='red'>3M's ceramic</font></strong> reduced the surface temperature of 1,000℉ heat transfer to the wall interior by 69% with a maximum high of 314℉. In the video note the plywood does not ignite. OSB and the wood ignite at 450℉."
-  -
     id: 9
     metric: "<strong>WARRANTY</strong>"
     details: "20-year warranty with no claims submitted in the 38-year history of WallGuard exterior coating projects across Canada."
