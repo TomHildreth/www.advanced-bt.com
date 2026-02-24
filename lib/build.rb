@@ -12,7 +12,7 @@ end
 
 def add_content_to_source(postion:, view_source_file:)
   Dir.glob('build/**/*.html').map(&File.method(:realpath)).each do |path|
-    next if path.include?('404.html')
+    next if path.include?('404')
     File.write(path, add_to_source(postion: postion,
                                    content: File.read(path),
                                    view_source_file: view_source_file))
@@ -33,8 +33,11 @@ rescue StandardError
 end
 
 def write_footer_content(content:, view_source_file:)
-  search_str = "<\/html>"
-  content.insert(content.index(search_str), "\n\n#{read_source_file(view_source_file: view_source_file)}\n\n")
+  search_str = '</html>'
+  pos = content.index(search_str)
+  return content if pos.nil?
+
+  content.insert(pos, "\n\n#{read_source_file(view_source_file: view_source_file)}\n\n")
 rescue StandardError
   raise StandardError, 'Unfortunately the view source footer index can not be located!'
 end
@@ -43,7 +46,7 @@ def write_header_content(content:, view_source_file:)
   search_str = '<html'
 
   pos_start = content.index(search_str)
-  raise StandardError, 'Unfortunately the view source header index can not be located!' if pos_start.nil?
+  return content if pos_start.nil?
 
   pos_end = content.index('>', pos_start) + 1
 
