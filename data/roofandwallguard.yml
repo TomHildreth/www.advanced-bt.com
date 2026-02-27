@@ -37,11 +37,11 @@ image:
 performance_data:
   -
     id: 1
-    metric: "<strong>FIRE</strong>: WallGuard or RoofGuard, formulated with <strong><font color='red'>3M ceramic</font></strong> coating (RoofGuard has twice the amount ceramic for solar protection as WallGuard), which is sprayed, rolled, or brushed onto the exterior walls and roof at a 6-mil thickness. During Intertek's ASTM'S E2768 30-minute fire test WallGuard eared a Class-A Fire Rating with Zero flame and smoke spread. Plus it withstood 1,675℉ during Intertek's NFPA 285 2-story 30-minute fire test."
+    metric: "<strong>FIRE</strong>: WallGuard or RoofGuard, formulated with <strong><font color='red'>3M ceramic</font></strong> coating (RoofGuard has twice the amount ceramic for solar protection as WallGuard), which is sprayed, rolled, or brushed onto the exterior walls and roof at a 6-mil thickness. During Intertek's ASTM'S E2768 30-minute fire test WallGuard eared a Class-A Fire Rating with Zero flame and smoke spread. Plus it withstood 1,675℉ during Intertek's NFPA 285 2-story 30-minute fire test without ignition."
     details:
   -
     id: 2
-    metric: "<strong>MOISTURE</strong>: 4 Year Wind-Driven Rain and Snow Test. The membrane is permeable (breathable) allowing interior water vapor to escape, but it is an exterior moisture barrier membrane against rain and snow. It's also resistant to fungus, mold, and mildew."
+    metric: "<strong>MOISTURE</strong>: 4 Year Wind-Driven Rain and Snow Test. The WallGuard membrane is permeable (breathable) allowing interior water vapor to escape preventing mold, and is an exterior moisture barrier against rain and snow. It's also resistant to fungus, mold, and mildew."
     details:
   -
     id: 3
@@ -54,7 +54,7 @@ performance_data:
   -
     id: 5
     metric: "<strong>INSULATION</strong>"
-    details: "WallGuard and RoofGuard adds R-4.8 to the structure. Our Protected Insulation Cladding System (PICS) and it's FCB panel substrate with 1-½ of foam insulation adds R-7.7 for a total wall insulation value of R-12.5. This reduces the cost of air-conditioning by > 20%. An exterior coating of WallGuard and RoofGuard formulated with 3M ceramic which adds 69% in exterior thermal reflectivity of heat and cold (like the Space Shuttle) which is equivalent to adding R-46 in insulation (formula from Dept. of Energy) and reduced air-infiltration to the structure reducing utility cost by 20% to 30% earning Federal Energy Efficiency Tax Credit of $1,200 for homeowners and $2,500 for homebuilders."
+    details: "According to the Department of Energy formula WallGuard and RoofGuard’s 69% thermal resistance coating adds R-46.4 insulation to the structure walls. Our Protected Insulation Cladding System (PICS) and it's FCB panel substrate with 1-½ of foam insulation adds R-7.7 for a total wall insulation value of R-54 12.5. This reduces the cost of air-conditioning by > 20% to 30%, earning Federal Energy Eﬃciency Tax Credit of $1,200 for homeowners and $2,500 for homebuilders."
   -
     id: 6
     metric: "<strong>ANNUAL MAINTENANCE</strong>: <b>None Required</b>"
