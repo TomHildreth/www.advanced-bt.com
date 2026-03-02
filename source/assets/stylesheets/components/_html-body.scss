@@ -16,3 +16,7 @@ body {
   @include primary-font();
   @include font-color-light();
 }
+
+.content-wrapper a {
+  color: $color-blue;
+}
